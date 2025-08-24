@@ -1,0 +1,18 @@
+# Threat Intelligence Reporting System Dependencies
+# Core HTTP and API communication
+requests>=2.31.0
+
+# Data manipulation and analysis
+pandas>=2.0.0
+
+# Data visualization
+matplotlib>=3.7.0
+
+# PDF generation - using fpdf (original) to match the code imports
+fpdf>=2.4.0
+
+# Task scheduling for automated reports
+APScheduler>=3.10.0
+
+# Optional: For better environment variable management
+python-dotenv>=1.0.0

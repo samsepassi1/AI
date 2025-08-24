@@ -1,0 +1,25 @@
+# Development Requirements
+# Threat Intelligence Reporting System - Development Dependencies
+
+# Include all production requirements
+-r requirements.txt
+
+# Code formatting and linting
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Type checking
+mypy>=1.5.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+
+# Security scanning
+bandit>=1.7.0
+safety>=2.3.0
